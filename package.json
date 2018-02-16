@@ -1,0 +1,20 @@
+{
+  "name": "ctracks-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "bootstrap": "^3.3.7",
+    "axios": "^0.17.0",
+    "query-string": "^5.0.1"
+  },
+  "scripts": {
+    "start": "HOST=$localhost react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
