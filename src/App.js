@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 import queryString from 'query-string';
@@ -141,6 +141,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
           <h2>cTracks-app - use CTracksComp</h2>
         </div>
 
