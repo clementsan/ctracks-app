@@ -7,7 +7,7 @@ import './App.css';
 import queryString from 'query-string';
 import axios from 'axios';
 
-import { CTracksComp } from 'cTracks';
+import { CTracksComp } from 'ctracks';
 
 
 
